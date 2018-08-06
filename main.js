@@ -292,27 +292,27 @@ var ItemListComponent = /** @class */ (function () {
     ItemListComponent.prototype.ngOnInit = function () {
         this.items = [{
                 nom: 'T-Shirt bugs Bunny',
-                image: '/src/assets/images/item/item1.jpeg',
+                image: './assets/images/item/item1.jpeg',
                 prix: 14.99
             }, {
                 nom: 'T-Shirt Damier',
-                image: '/src/assets/images/item/item2.jpeg',
+                image: './assets/images/item/item2.jpeg',
                 prix: 6.99
             }, {
                 nom: 'T-Shirt Chill',
-                image: '/src/assets/images/item/item3.jpeg',
+                image: './assets/images/item/item3.jpeg',
                 prix: 23.99
             }, {
                 nom: 'Robe Fleur',
-                image: '/src/assets/images/item/item4.jpeg',
+                image: './assets/images/item/item4.jpeg',
                 prix: 78.99
             }, {
                 nom: 'Chemise colore',
-                image: '/src/assets/images/item/item5.jpeg',
+                image: './assets/images/item/item5.jpeg',
                 prix: 53.99
             }, {
                 nom: 'Debardeur rouge',
-                image: '/src/assets/images/item/item6.jpeg',
+                image: './assets/images/item/item6.jpeg',
                 prix: 24.99
             }];
     };
@@ -556,17 +556,17 @@ var SliderComponent = /** @class */ (function () {
     }
     SliderComponent.prototype.ngOnInit = function () {
         this.slides = [{
-                image: '/src/assets/images/slider1.jpg',
+                image: './assets/images/slider1.jpg',
                 marques: ['H&M', 'Desigual', 'Louis Vuiton', 'Zarah'],
                 nomPromo: 'Collection Automne Hiver 2018‎'
             },
             {
-                image: '/src/assets/images/slider2.jpg',
+                image: './assets/images/slider2.jpg',
                 marques: ['Armani', 'Jules', 'Hugo Boss'],
                 nomPromo: 'Solde jusqu\'à -40% sur les costard'
             },
             {
-                image: '/src/assets/images/slider3.jpg',
+                image: './assets/images/slider3.jpg',
                 marques: ['Petit bateau', 'Catimini', 'Lacoste'],
                 nomPromo: 'Les bébés a l\'honneur'
             }];
